@@ -1,0 +1,67 @@
+* {  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  text-align: center;
+  padding-right: 255px;
+  padding-left: 255px;
+}
+
+.foto {
+  text-align: center;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+/* Style the topnav links */
+.topnav a {
+  display: inline-block;
+  color: black;
+  padding: 15px 34px;
+  text-align: center  ;
+  text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: white;
+  color: grey;
+}
+
+.socmed li {
+  display: inline-block;
+  padding-inline: 20px;
+  padding-top: 10px;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+}
+
+.about {
+  text-align: center;
+  background-color: white;
+  width: 817px;
+}
+
+.blok {
+  width: 250px;
+  height: 250px;
+  background-image: url('about.jpg');
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.about li {
+  display: inline-block;
+}
